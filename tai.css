@@ -472,13 +472,16 @@ main .contact_block .contact_button {
   aspect-ratio: 3/2;
   background-color: rgba(0, 44, 97, 0.7);
   background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main .contact_block .contact_button .content {
+/* main .contact_block .contact_button .content {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 main .contact_block .contact_button .content h2 {
   color: #EA5514;
   letter-spacing: 4px;
@@ -1098,12 +1101,6 @@ footer .bottom_navbar .guide .social .social_icon {
   }
   main .contact_block {
     display: block;
-  }
-  main .contact_block .contact_button .content {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
   main .contact_block .contact_button .content h2 {
     font-size: 48px;
