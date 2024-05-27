@@ -476,12 +476,12 @@ main .contact_block .contact_button {
   justify-content: center;
   align-items: center;
 }
-/* main .contact_block .contact_button .content {
-  top: 50%;
+main .contact_block .contact_button .content {
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   text-align: center;
-} */
+}
 main .contact_block .contact_button .content h2 {
   color: #EA5514;
   letter-spacing: 4px;
